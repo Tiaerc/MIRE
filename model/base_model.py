@@ -1,7 +1,6 @@
 import logging
 import torch
 from torch import nn
-from config.features import get_feature_names, DAPAN_SPARSE, DAPAN_DENSE
 from modeling.embedding import Embedding_Left
 from modeling.feature_cross_net import DNN, MoE, DCN
 from modeling.transformer import PositionEmbedding, AttentionPoolingLayer, EncoderLayer
